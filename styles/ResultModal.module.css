@@ -1,0 +1,19 @@
+.modal {
+  width: 500px;
+}
+.modal h1 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.content {
+  text-align: center;
+  font-weight: 600;
+}
+.content label {
+  font-weight: 400;
+}
+.buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}

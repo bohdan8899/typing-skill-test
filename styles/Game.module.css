@@ -19,21 +19,30 @@
 }
 
 .title,
-.description {
+.quote {
   text-align: center;
 }
 
-.description {
+.quote {
   margin: 3rem 0;
   line-height: 1.5;
   font-size: 1.3rem;
+  max-width: 500px;
+  user-select: none;
 }
 
-.field {
-  margin-bottom: 20px;
-  width: 300px;
+.inputArea {
+  margin-bottom: 3rem;
+  height: 300px;
+  width: 520px;
+  resize: none;
+  padding: 0.5rem;
+  font-size: 1.3rem;
 }
-
-.field > label {
-  margin-bottom: 5px;
+.incorrectChar {
+  color: red;
+  text-decoration: underline;
+}
+.correctChar {
+  color: darkgreen;
 }
